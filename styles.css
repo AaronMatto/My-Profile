@@ -1,0 +1,101 @@
+
+
+body {
+  background-image: linear-gradient(180deg, rgb(23,104,123), rgba(23,104,123, 0.5));
+}
+
+img {
+  width: 200px;
+  height: 300px;
+  margin: auto;
+}
+
+.header-card {
+  font-size: 30px;
+  width: 90%;
+  margin: auto;
+  position: relative;
+  font-family:'Rampart One', cursive;
+  color: red;
+  text-shadow: 2px 2px 2px black;
+}
+
+#me-caption {
+  position: relative;
+  bottom: 40px;
+  text-decoration: italic;
+  font-weight: 900;
+  font-family:'Poppins', sans-serif;
+  color: black;
+  text-shadow: none;
+}
+
+.content-card {
+  background-color: rgba(39,127,42,0.8);
+  width: 40%;
+  margin: auto;
+  padding: 30px;
+  border-radius: 3px;
+  box-shadow: 2px 4px 3px black;
+  border: solid 2px black;
+  font-family:'Poppins', sans-serif;
+}
+
+#button {
+  background-color: black;
+  color: rgb(8, 228, 235);
+  width: 100px;
+  height: 50px;
+  border-radius: 2px;
+  border: none;
+}
+
+#button:hover {
+  cursor: pointer;
+  font-family:'Poppins', sans-serif;
+  color: red;
+}
+
+.socials {
+  font-size: 20px;
+  width: 30%;
+  margin: auto;
+  margin-top: 50px;
+  position: relative;
+  left: -430px;
+  font-family: 'Lobster', cursive;
+  color: black;
+  font-size: 30px;
+
+}
+
+.socials > ul > li > a {
+  text-decoration: none;
+  text-shadow: 1px 1px 1px black;
+}
+
+
+.socials > ul > li > a:visited {
+  color: rgb(255, 0, 170);
+  text-decoration: none;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
